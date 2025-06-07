@@ -1,0 +1,14 @@
+# themes/my-terminal.toml
+[colors]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+cursor = "#f5e0dc"
+
+[theme]
+name = "catppuccin-mocha"
+font_family = "JetBrains Mono"
+font_size = 12
+
+[features]
+transparency = true
+blur = false
