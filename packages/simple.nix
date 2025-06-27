@@ -11,16 +11,19 @@ with pkgs; [
   haruna
   vesktop
   onlyoffice-desktopeditors
+  popsicle
 
   # Creative tools
   blender
-  krita
   pinta
 
   # Development tools
   git
   vscode-fhs
   python312
+  gh
+  nodejs_20
+  claude-code
 
   # System utilities
   cacert

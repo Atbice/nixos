@@ -63,8 +63,7 @@
   hardware.nvidia-container-toolkit.enable = true;
 
   # Optional: Enable lingering for rootless containers to run without user logged in
-  users.users.bice = {
-    lingering = true;
+  users.users.bice.linger = true;
   };
 
   # Useful aliases and environment variables

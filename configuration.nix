@@ -11,7 +11,7 @@
     # System modules
     ./modules/hardware.nix
     ./modules/desktop.nix
-    ./modules/development# Fixed: was services.nix
+    #./modules/development.nix# Fixed: was services.nix
 
     # All packages
     ./packages
@@ -69,4 +69,7 @@
     LC_TELEPHONE = "sv_SE.UTF-8";
     LC_TIME = "sv_SE.UTF-8";
   };
+  nix.settings = {
+    download-buffer-size = 268435456;  # 256 MB
+};
 }
